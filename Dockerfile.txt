@@ -1,5 +1,0 @@
-FROM java:8-jdk-alpine
-WORKDIR /user/app
-COPY ./target/java-spring-boot-maven /user/app
-EXPOSE 3000
-ENTRYPOINT ["java","-jar", "spring-boot-maven.jar"]
